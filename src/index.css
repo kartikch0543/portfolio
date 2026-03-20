@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Sora:wght@500;600;700;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --app-bg: linear-gradient(180deg, #f7f8fc 0%, #eef2f7 52%, #e8edf5 100%);
+  --surface-primary: rgba(255, 255, 255, 0.72);
+  --surface-secondary: rgba(255, 255, 255, 0.92);
+  --surface-tertiary: rgba(241, 245, 249, 0.92);
+  --surface-muted: rgba(226, 232, 240, 0.78);
+  --border-soft: rgba(148, 163, 184, 0.24);
+  --border-strong: rgba(148, 163, 184, 0.34);
+  --text-primary: #0f172a;
+  --text-secondary: #334155;
+  --text-muted: #64748b;
+  --text-contrast: #ffffff;
+  --accent: #2563eb;
+  --accent-strong: #7c3aed;
+  --accent-soft: rgba(37, 99, 235, 0.1);
+  --hero-glow-start: rgba(59, 130, 246, 0.16);
+  --hero-glow-end: rgba(125, 211, 252, 0.2);
+  --hero-glow-soft: rgba(255, 255, 255, 0.12);
+}
+
+.dark {
+  --app-bg: linear-gradient(180deg, #030303 0%, #070a10 100%);
+  --surface-primary: rgba(8, 8, 10, 0.9);
+  --surface-secondary: rgba(10, 10, 13, 0.96);
+  --surface-tertiary: rgba(15, 15, 19, 0.98);
+  --surface-muted: rgba(6, 6, 9, 0.98);
+  --border-soft: rgba(255, 255, 255, 0.12);
+  --border-strong: rgba(255, 255, 255, 0.2);
+  --text-primary: #ffffff;
+  --text-secondary: #d7e0ec;
+  --text-muted: #97a5b9;
+  --text-contrast: #020617;
+  --accent: #2dd4bf;
+  --accent-strong: #22d3ee;
+  --accent-soft: rgba(34, 211, 238, 0.16);
+  --hero-glow-start: transparent;
+  --hero-glow-end: transparent;
+  --hero-glow-soft: transparent;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  font-family: 'Inter', sans-serif;
+  background: #000000;
+  color: var(--text-primary);
+  transition: background 0.4s ease, color 0.4s ease;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Sora', sans-serif;
+}
+
+::selection {
+  background: rgba(56, 189, 248, 0.35);
+  color: #f8fafc;
+}
+
+.app-shell::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: transparent;
+  z-index: -5;
+}
+
+a,
+button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+input,
+textarea {
+  color: inherit;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: var(--text-muted);
+}

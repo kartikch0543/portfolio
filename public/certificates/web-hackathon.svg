@@ -1,0 +1,12 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="700" rx="36" fill="#0F172A"/>
+  <rect x="32" y="32" width="1136" height="636" rx="28" fill="#EFF6FF"/>
+  <rect x="72" y="72" width="210" height="42" rx="21" fill="#38BDF8" fill-opacity="0.18"/>
+  <text x="96" y="100" fill="#0F172A" font-size="24" font-family="Arial">Hackathon</text>
+  <text x="72" y="184" fill="#0F172A" font-size="54" font-family="Arial" font-weight="700">Web Hackathon</text>
+  <text x="72" y="248" fill="#475569" font-size="28" font-family="Arial">Rapid prototyping and collaborative execution</text>
+  <rect x="72" y="520" width="280" height="84" rx="24" fill="#DBEAFE"/>
+  <text x="114" y="573" fill="#2563EB" font-size="30" font-family="Arial" font-weight="700">Event 2024</text>
+  <path d="M876 206L948 134L1016 202L944 274L876 206Z" fill="#2563EB" fill-opacity="0.16"/>
+  <path d="M930 312L1002 240L1070 308L998 380L930 312Z" fill="#8B5CF6" fill-opacity="0.16"/>
+</svg>

@@ -1,0 +1,12 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="700" rx="36" fill="#0F172A"/>
+  <rect x="32" y="32" width="1136" height="636" rx="28" fill="#F8FAFC"/>
+  <rect x="72" y="72" width="260" height="42" rx="21" fill="#38BDF8" fill-opacity="0.16"/>
+  <text x="96" y="100" fill="#0F172A" font-size="24" font-family="Arial">Competitive Coding</text>
+  <text x="72" y="184" fill="#0F172A" font-size="54" font-family="Arial" font-weight="700">Code-A-Haunt</text>
+  <text x="72" y="250" fill="#475569" font-size="30" font-family="Arial">Rank 6 achievement</text>
+  <text x="72" y="326" fill="#334155" font-size="24" font-family="Arial">Recognized for strong problem solving, speed,</text>
+  <text x="72" y="362" fill="#334155" font-size="24" font-family="Arial">and logical execution under competition pressure.</text>
+  <circle cx="972" cy="192" r="118" fill="#8B5CF6" fill-opacity="0.16"/>
+  <text x="920" y="214" fill="#7C3AED" font-size="72" font-family="Arial" font-weight="700">#6</text>
+</svg>
