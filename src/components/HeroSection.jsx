@@ -126,13 +126,14 @@ export function HeroSection({ data }) {
                 </div>
               </div>
 
-              <div className="flex justify-center p-6">
+              <div className="flex justify-center px-6 py-5">
                 <div className="relative group">
-                  <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-cyan-500/35 to-teal-500/35 blur-xl opacity-35 transition duration-500 group-hover:opacity-45" />
+                  <div className="absolute inset-1 rounded-full bg-gradient-to-tr from-cyan-500/10 to-teal-500/8 blur-xl opacity-10 transition duration-500 group-hover:opacity-15" />
                   <img
                     src={data.image}
                     alt={data.name}
-                    className="relative z-10 mx-auto aspect-square w-full max-w-[16rem] rounded-full border-4 border-slate-800 object-cover shadow-[0_10px_26px_rgba(0,0,0,0.38)] transition-transform duration-500 group-hover:scale-105 dark:border-slate-900"
+                    className="relative z-10 mx-auto aspect-square w-full max-w-[14rem] rounded-full border-[3px] border-slate-800/80 object-cover shadow-[0_8px_18px_rgba(0,0,0,0.2)] transition-transform duration-500 group-hover:scale-[1.01] dark:border-slate-900/90"
+                    style={{ filter: 'brightness(0.9) saturate(0.84) contrast(0.92) blur(0.8px)', opacity: 0.9 }}
                   />
                 </div>
               </div>
